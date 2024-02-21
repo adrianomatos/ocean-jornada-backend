@@ -1,14 +1,18 @@
 {
   "name": "ocean-jornada-backend",
   "version": "1.0.0",
-  "description": "Projeto NodeJS e Express feito durante a Jornada Backend do Samsung Ocean",
+  "description": "Projeto NodeJS e Express pela Jornada Backend do Samsung Ocean",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Adriano Matos",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
