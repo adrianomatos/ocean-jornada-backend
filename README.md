@@ -8,3 +8,4 @@ Projeto NodeJS e Express feito durante a Jornada Backend do Samsung Ocean
 * npm start (se mudar dependencia "start": "node index.js")
 * npm install --save-dev nodemon (ou npm i -D nodemon)
 * npm run dev (se add dependencia "dev": "nodemon index.js")
+* npm i dotenv
